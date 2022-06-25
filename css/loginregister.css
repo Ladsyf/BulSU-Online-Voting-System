@@ -20,8 +20,11 @@ body {
 .heading {
     background-color: #6a2323;
     color: white;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
+    border-radius: 12px;
+    width: 500px;
+    padding: 0;
 }
 .forminput {
     border: none;
@@ -48,13 +51,15 @@ body {
     margin-top: 10px; 
     margin-bottom: 20px;
  } 
- 
  .or span { 
      background:#fff; 
      padding:0 10px; 
  }
 @media only screen and (max-width: 600px) {
     .logincontainer {
+        width: 90%;
+    }
+    .heading {
         width: 90%;
     }
     body {
@@ -114,6 +119,6 @@ body {
         width: auto;
         height: 60px;
     }
-    .
+    
 
 }
