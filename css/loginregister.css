@@ -125,15 +125,7 @@ body {
         background-attachment: fixed;
     }
     .regPage1 {
-        display: flex;
-        justify-content: center;  
-        background-color: white;
-        width: 60%;
-        height: 530px;
-        margin-left: 25%;
-        border-radius: 10px;
-        margin-top: 30px;
-        transform: translateX(-20px);
+        width: 400px;
     }
     .regInputs {
         text-align: center;
@@ -169,13 +161,9 @@ body {
         color: gray;
     }
     .logo-header {
-        margin: 80px 20px 0 20px;
-        border-radius: 10px;
         width: 400px;
         height: 60px;
     }
-    .logo-header img {
-        transform: translateY(-10px);
-    }
+
 
 }
