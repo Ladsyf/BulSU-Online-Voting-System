@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/loginregister.css">
 </head>
 <body>
-    <section>
-        <h1>CREATE YOUR ACCOUNT</h1>
+    <header class = "logo-header">
+        <img src="img/logo.png" width = "100px">
+    </header>
+    <section class = "regPage1">
         <div class = "regInputs">
-            <input type="email" name="email" placeholder = "Email">
-            <input type="text" name="username" placeholder = "Username">
-            <input type="password" name="password" placeholder = "Password">
-            <input type="password" name="confirmPassword" placeholder = "Confirm Password">
+            <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
+            <input type="email" name="email" placeholder = "Email"><br>
+            <input type="text" name="username" placeholder = "Username"><br>
+            <input type="password" name="password" placeholder = "Password"><br>
+            <input type="password" name="confirmPassword" placeholder = "Confirm Password"><br>
+            <button type="submit" class = "nextButton">NEXT</button><br>
+            <button type="button">CANCEL</button>
         </div>
-        <button type="submit">NEXT</button>
-        <button type="button">CANCEL</button>
     </section>
 </body>
 </html>

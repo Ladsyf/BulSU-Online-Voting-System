@@ -3,5 +3,49 @@ body {
 
 }
 @media only screen and (max-width: 700px) {
-
+    body {
+        background-image: url("../img/bulsu.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    } 
+    .regPage1 {
+        display: flex;
+        justify-content: center;  
+        background-color: white;
+        width: 60%;
+        height: 500px;
+        margin-left: 25%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .regInputs {
+        text-align: center;
+    }
+    .logo-header {
+        width: auto;
+        height: 50px;
+        background-color: red;
+    }
+    .regInputs input {
+        margin: 10px 0;
+        padding: 20px 0;
+        width: 300px;
+        box-shadow: .5px .5px #808080;
+        border: none;
+    }
+    .regInputs button {
+        margin-top: 10px;
+        padding: 20px 0;
+        width: 300px;
+        border: none;
+        border-radius: 10px;
+    }
+    .nextButton {
+        background-color: rgb(150, 4, 4);
+        color: white;
+    }
+    .h2Reg {
+        font-size: 20px;
+        color: gray;
+    }
 }
