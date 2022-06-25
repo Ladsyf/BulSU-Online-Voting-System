@@ -8,10 +8,7 @@
         <link rel="stylesheet" href="css/loginregister.css">
     </head>
 <body>
-    <div class = "blurr">
-    </div>
     <div class = "heading">
-    <img src="img/logo.png" class = "logo" width = "100px">
         BulSU E-Voting System
     </div>
 
