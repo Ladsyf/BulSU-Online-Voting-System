@@ -55,6 +55,66 @@ body {
      background:#fff; 
      padding:0 10px; 
  }
+
+
+.regPage1 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-radius: 13px;
+    padding: 10px 0px;
+}
+.regInputs {
+    text-align: center;
+}
+.logo-header {
+    width: auto;
+    height: 50px;
+    background-color: #6a2323;
+}
+.regInputs input {
+    margin: 10px 0;
+    padding: 20px 0;
+    width: 300px;
+    box-shadow: .5px .5px #808080;
+    border: none;
+}
+.regInputs input::placeholder {
+    font-size: larger;
+}
+.regInputs button {
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.nextButton {
+    background-color: #6a2323;
+    color: white;
+}
+.h2Reg {
+    font-size: 20px;
+    color: gray;
+}
+.logo-header {
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+    
+}
+.logo-header img {
+    transform: translateY(-10px);
+}
+.h2Header {
+    color: white;
+    display: inline-block;
+    transform: translateY(-50px);
+    font-size: large;
+}
+
 @media only screen and (max-width: 600px) {
     .logincontainer {
         width: 90%;
@@ -86,7 +146,7 @@ body {
     .logo-header {
         width: auto;
         height: 50px;
-        background-color: red;
+        background-color: #6a2323;
     }
     .regInputs input {
         margin: 10px 0;
@@ -106,7 +166,7 @@ body {
         border-radius: 10px;
     }
     .nextButton {
-        background-color: rgb(150, 4, 4);
+        background-color: #6a2323;
         color: white;
     }
     .h2Reg {
@@ -116,9 +176,12 @@ body {
     .logo-header {
         margin: 80px 20px 0 20px;
         border-radius: 10px;
-        width: auto;
+        width: 400px;
         height: 60px;
     }
     
+    .logo-header img {
+        transform: translateY(-10px);
+    }
 
 }
