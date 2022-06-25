@@ -17,8 +17,6 @@
         </div>
         <button type="submit">NEXT</button>
         <button type="button">CANCEL</button>
-        <button>TESTINGLANG</button>
-        <button>yes</button>
     </section>
 </body>
 </html>

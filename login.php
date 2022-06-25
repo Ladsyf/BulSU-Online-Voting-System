@@ -19,7 +19,7 @@
         <input type = "checkbox">
         <input type = "submit" value = "SIGN IN">
         <p> Forgot Password? Click <a href = "#">here</a></p>
-        <hr> <p> OR  </p><hr>
+        <hr> <p> OR </p><hr>
     </form>
 
     <button>REGISTER</button>
