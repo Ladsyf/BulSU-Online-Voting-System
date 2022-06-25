@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class = "logo-header">
-        <img src="img/logo.png" width = "100px">
+        <img src="img/logo.png" width = "150px">
     </header>
     <section class = "regPage1">
         <div class = "regInputs">

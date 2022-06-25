@@ -1,22 +1,79 @@
 
-body {
-
+* {
+    font-family: Segoe UI;
 }
-@media only screen and (max-width: 700px) {
+body {
+    margin: 0;
+    background-image: url('../img/bulsu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logincontainer {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-radius: 13px;
+    padding: 10px 0px;
+}
+.heading {
+    background-color: #6a2323;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.forminput {
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    width: 85%;
+    height: 40px;
+    border-radius: 6px;
+}
+.loginBTN, .registerBTN{
+    color: white;
+}
+.loginBTN{
+    background-color: #6a2323;
+}
+.registerBTN{
+    background-color: #3279b0;
+}
+.or {
+    width: 80%; 
+    margin: auto;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+ } 
+ 
+ .or span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+@media only screen and (max-width: 600px) {
+    .logincontainer {
+        width: 90%;
+    }
     body {
-        background-image: url("../img/bulsu.jpg");
+        margin: 0;
+        background-image: url('../img/bulsu.jpg');
         background-repeat: no-repeat;
-        background-size: auto;
-    } 
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .regPage1 {
         display: flex;
         justify-content: center;  
         background-color: white;
         width: 60%;
-        height: 500px;
+        height: 530px;
         margin-left: 25%;
         border-radius: 10px;
-        margin-top: 20px;
+        margin-top: 30px;
+        transform: translateX(-20px);
     }
     .regInputs {
         text-align: center;
@@ -33,6 +90,9 @@ body {
         box-shadow: .5px .5px #808080;
         border: none;
     }
+    .regInputs input::placeholder {
+        font-size: larger;
+    }
     .regInputs button {
         margin-top: 10px;
         padding: 20px 0;
@@ -48,4 +108,12 @@ body {
         font-size: 20px;
         color: gray;
     }
+    .logo-header {
+        margin: 80px 20px 0 20px;
+        border-radius: 10px;
+        width: auto;
+        height: 60px;
+    }
+    .
+
 }
