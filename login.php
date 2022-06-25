@@ -8,21 +8,22 @@
         <link rel="stylesheet" href="css/loginregister.css">
     </head>
 <body>
-    <div class = "">
+    <div class = "heading">
         BulSU E-Voting System
     </div>
 
     <div class = "logincontainer">
     <form>
-        <input type = "text" placeholder = "Username">
-        <input type = "password" placeholder = "Password">
-        <input type = "checkbox">
-        <input type = "submit" value = "SIGN IN">
+        <p> LOGIN YOUR ACCOUNT</p>
+        <input type = "text" placeholder = "Username" class = "forminput" style = "margin-bottom: 20px;"><br>
+        <input type = "password" placeholder = "Password" class = "forminput"><br>
+        <p><input type = "checkbox">  Keep me logged in</p>
+        <input type = "submit" value = "SIGN IN" class = "forminput loginBTN">
         <p> Forgot Password? Click <a href = "#">here</a></p>
-        <hr> <p> OR </p><hr>
+        <p class = "or"><span> OR </span></p>
     </form>
 
-    <button>REGISTER</button>
+    <button class = "forminput registerBTN" class = "registerBTN">REGISTER</button>
     <p> Doesn't have an account? </p>
     </div>
 </body>
