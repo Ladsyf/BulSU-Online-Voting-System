@@ -10,6 +10,7 @@
 <body>
     <header class = "logo-header">
         <img src="img/logo.png" width = "150px">
+        <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
     <section class = "regPage1">
         <div class = "regInputs">
