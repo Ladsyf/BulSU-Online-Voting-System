@@ -20,11 +20,8 @@ body {
 .heading {
     background-color: #6a2323;
     color: white;
-    margin: 50px auto;
+    margin: auto;
     text-align: center;
-    border-radius: 12px;
-    width: 500px;
-    padding: 0;
 }
 .forminput {
     border: none;
@@ -51,6 +48,7 @@ body {
     margin-top: 10px; 
     margin-bottom: 20px;
  } 
+ 
  .or span { 
      background:#fff; 
      padding:0 10px; 
@@ -119,9 +117,6 @@ body {
     .logincontainer {
         width: 90%;
     }
-    .heading {
-        width: 90%;
-    }
     body {
         margin: 0;
         background-image: url('../img/bulsu.jpg');
@@ -130,15 +125,7 @@ body {
         background-attachment: fixed;
     }
     .regPage1 {
-        display: flex;
-        justify-content: center;  
-        background-color: white;
-        width: 60%;
-        height: 530px;
-        margin-left: 25%;
-        border-radius: 10px;
-        margin-top: 30px;
-        transform: translateX(-20px);
+        width: 400px;
     }
     .regInputs {
         text-align: center;
@@ -174,14 +161,9 @@ body {
         color: gray;
     }
     .logo-header {
-        margin: 80px 20px 0 20px;
-        border-radius: 10px;
         width: 400px;
         height: 60px;
     }
-    
-    .logo-header img {
-        transform: translateY(-10px);
-    }
+
 
 }
