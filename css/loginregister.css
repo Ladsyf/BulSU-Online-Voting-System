@@ -26,12 +26,14 @@ body {
 .forminput {
     border: none;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
-    width: 85%;
-    height: 40px;
-    border-radius: 6px;
+    width: 75%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 5%
 }
 .loginBTN, .registerBTN{
     color: white;
+    width: 85%;
 }
 .loginBTN{
     background-color: #6a2323;
@@ -66,11 +68,7 @@ body {
 .regInputs {
     text-align: center;
 }
-.logo-header {
-    width: auto;
-    height: 50px;
-    background-color: #6a2323;
-}
+
 .regInputs input {
     margin: 10px 0;
     padding: 20px 0;
@@ -101,7 +99,7 @@ body {
     border-radius: 10px;
     width: 500px;
     height: 60px;
-    
+    background-color: #6a2323;
 }
 .logo-header img {
     transform: translateY(-10px);
@@ -132,7 +130,8 @@ body {
     }
     .logo-header {
         width: auto;
-        height: 50px;
+        width: 90%;
+        height: 60px;
         background-color: #6a2323;
     }
     .regInputs input {
@@ -159,10 +158,6 @@ body {
     .h2Reg {
         font-size: 20px;
         color: gray;
-    }
-    .logo-header {
-        width: 400px;
-        height: 60px;
     }
 
 

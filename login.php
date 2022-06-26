@@ -8,17 +8,18 @@
         <link rel="stylesheet" href="css/loginregister.css">
     </head>
 <body>
-    <div class = "heading">
-        BulSU E-Voting System
-    </div>
+<header class = "logo-header">
+        <img src="img/logo.png" width = "150px">
+        <h2 class = "h2Header">BulSU E-Voting System</h2>
+    </header>
 
     <div class = "logincontainer">
     <form>
-        <p> LOGIN YOUR ACCOUNT</p>
+        <h2 class = "h2Reg"> LOGIN YOUR ACCOUNT</h2>
         <input type = "text" placeholder = "Username" class = "forminput" style = "margin-bottom: 20px;"><br>
         <input type = "password" placeholder = "Password" class = "forminput"><br>
         <p><input type = "checkbox">  Keep me logged in</p>
-        <input type = "submit" value = "SIGN IN" class = "forminput loginBTN">
+        <button type = "submit" class = "forminput loginBTN">SIGN IN</button>
         <p> Forgot Password? Click <a href = "#">here</a></p>
         <p class = "or"><span> OR </span></p>
     </form>

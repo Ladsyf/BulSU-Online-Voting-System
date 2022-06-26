@@ -12,7 +12,7 @@
         <img src="img/logo.png" width = "150px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
-    <section class = "regPage1">
+    <section class = "logincontainer">
         <div class = "regInputs">
             <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
             <input type="email" name="email" placeholder = "Email"><br>
