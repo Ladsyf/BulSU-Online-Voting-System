@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="css/loginregister.css">
 </head>
 <body>
@@ -12,6 +12,7 @@
         <img src="img/logo.png" width = "100px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
+<<<<<<< HEAD
     <section class = "logincontainer">
         <form class = "regInputs">
             <!-- <div class = "reg1">
@@ -40,6 +41,19 @@
                 <button type="button" class = "nextButton">NEXT</button><br>
                 <button type="button">CANCEL</button>
             </div>
+=======
+    <div class = "logincontainer">
+        <form>
+
+            <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
+            <input type="email" name="email" placeholder = "Email" class = "forminput"><br>
+            <input type="text" name="username" placeholder = "Username" class = "forminput"><br>
+            <input type="password" name="password" placeholder = "Password" class = "forminput"><br>
+            <input type="password" name="confirmPassword" placeholder = "Confirm Password" class = "forminput"><br>
+            <button type="submit" class = "forminput loginBTN">NEXT</button><br>
+            <button type="button" class = "forminput loginBTN" style = "background-color: white; color: black;">CANCEL</button>
+
+>>>>>>> 6f17f79c61bc39ae2c8bf02811e9d64611d97701
         </form>
     </section>
 </body>
