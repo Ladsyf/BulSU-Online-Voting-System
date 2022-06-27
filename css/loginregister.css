@@ -82,17 +82,9 @@ body {
     transform: translate(70px , -60px);
     font-size: large;
 }
-
 @media only screen and (max-width: 600px) {
     .logincontainer {
         width: 90%;
-    }
-    body {
-        margin: 0;
-        background-image: url('../img/bulsu.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
     }
     .regPage1 {
         width: 400px;
@@ -126,5 +118,4 @@ body {
         background-color: #6a2323;
         color: white;
     }
-
 }
