@@ -16,8 +16,8 @@
     <div class = "logincontainer">
     <form>
         <h2 class = "h2Reg"> LOGIN YOUR ACCOUNT</h2>
-        <input type = "text" placeholder = "Username" class = "forminput" style = "margin-bottom: 20px;"><br>
-        <input type = "password" placeholder = "Password" class = "forminput"><br>
+        <input type = "text" placeholder = "Username" class = "forminput"><br>
+        <input type = "password" placeholder = "Password" class = "forminput" style = "margin-bottom: 0px;"><br>
         <p><input type = "checkbox">  Keep me logged in</p>
         <button type = "submit" class = "forminput loginBTN">SIGN IN</button>
         <p> Forgot Password? Click <a href = "#">here</a></p>

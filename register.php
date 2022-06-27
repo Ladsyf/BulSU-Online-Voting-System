@@ -12,16 +12,16 @@
         <img src="img/logo.png" width = "150px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
-    <section class = "logincontainer">
-        <div class = "regInputs">
+    <div class = "logincontainer">
+        <form>
             <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
-            <input type="email" name="email" placeholder = "Email"><br>
-            <input type="text" name="username" placeholder = "Username"><br>
-            <input type="password" name="password" placeholder = "Password"><br>
-            <input type="password" name="confirmPassword" placeholder = "Confirm Password"><br>
-            <button type="submit" class = "nextButton">NEXT</button><br>
-            <button type="button">CANCEL</button>
-        </div>
+            <input type="email" name="email" placeholder = "Email" class = "forminput"><br>
+            <input type="text" name="username" placeholder = "Username" class = "forminput"><br>
+            <input type="password" name="password" placeholder = "Password" class = "forminput"><br>
+            <input type="password" name="confirmPassword" placeholder = "Confirm Password" class = "forminput"><br>
+            <button type="submit" class = "forminput loginBTN">NEXT</button><br>
+            <button type="button" class = "forminput loginBTN" style = "background-color: white; color: black;">CANCEL</button>
+    </form>
     </section>
 </body>
 </html>
