@@ -13,15 +13,34 @@
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
     <section class = "logincontainer">
-        <div class = "regInputs">
-            <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
-            <input type="email" name="email" placeholder = "Email"><br>
-            <input type="text" name="username" placeholder = "Username"><br>
-            <input type="password" name="password" placeholder = "Password"><br>
-            <input type="password" name="confirmPassword" placeholder = "Confirm Password"><br>
-            <button type="submit" class = "nextButton">NEXT</button><br>
-            <button type="button">CANCEL</button>
-        </div>
+        <form class = "regInputs">
+            <!-- <div class = "reg1">
+                <h2 class = "h2Reg">CREATE YOUR ACCOUNT</h2>
+                <input type="email" name="email" placeholder = "Email"><br>
+                <input type="text" name="username" placeholder = "Username"><br>
+                <input type="password" name="password" placeholder = "Password"><br>
+                <input type="password" name="confirmPassword" placeholder = "Confirm Password"><br>
+                <button type="button" class = "nextButton">NEXT</button><br>
+                <button type="button">CANCEL</button>
+            <div> -->
+            <div class = "reg2">
+                <h2 class = "h2Reg">PERSONAL INFORMATION</h2>
+                <input type="number" name="number" placeholder = "Student Number"><br>
+                <input type="text" name="fName" placeholder = "First Name"><br>
+                <input type="text" name="mName" placeholder = "Middle Name"><br>
+                <input type="text" name="lName" placeholder = "Last Name"><br>
+                <input type="text" name="course" placeholder = "Course">
+                <input type="text" name="year" placeholder = "Year"><br>
+                <label for="file-upload" class="custom-file-upload">
+                <img src="img/cloud.png" width = "5%"> Upload your COR here
+                </label>
+                <input id="file-upload" type="file"/>
+                <input type="checkbox" name="terms" id = "terms">
+                <label for="terms">Agree to Terms and Services</label>
+                <button type="button" class = "nextButton">NEXT</button><br>
+                <button type="button">CANCEL</button>
+            </div>
+        </form>
     </section>
 </body>
 </html>
