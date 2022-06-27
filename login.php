@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="css/loginregister.css">
     </head>
 <body>
-<header class = "logo-header">
-        <img src="img/logo.png" width = "150px">
+    <header class = "logo-header">
+        <img src="img/logo.png" width = "100px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
 
