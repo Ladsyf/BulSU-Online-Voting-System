@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class = "logo-header">
-        <img src="img/logo.png" width = "150px">
+        <img src="img/logo.png" width = "100px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
     <div class = "logincontainer">
