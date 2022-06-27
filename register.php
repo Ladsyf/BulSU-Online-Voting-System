@@ -12,7 +12,6 @@
         <img src="img/logo.png" width = "100px">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
-<<<<<<< HEAD
     <section class = "logincontainer">
         <form class = "regInputs">
             <!-- <div class = "reg1">
@@ -41,7 +40,6 @@
                 <button type="button" class = "nextButton">NEXT</button><br>
                 <button type="button">CANCEL</button>
             </div>
-=======
     <div class = "logincontainer">
         <form>
 
@@ -53,7 +51,6 @@
             <button type="submit" class = "forminput loginBTN">NEXT</button><br>
             <button type="button" class = "forminput loginBTN" style = "background-color: white; color: black;">CANCEL</button>
 
->>>>>>> 6f17f79c61bc39ae2c8bf02811e9d64611d97701
         </form>
     </section>
 </body>
