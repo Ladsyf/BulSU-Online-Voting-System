@@ -68,21 +68,25 @@ body {
     font-weight: 500;
 }
 .logo-header {
-    margin: 50px auto;
+    margin: auto;
     border-radius: 10px;
-    width: 500px;
+    width: 2000%;
     height: 60px;
     background-color: #6a2323e7;
-    
+    text-align: center;
 }
-.logo-header img {
-   transform: translateY(-20px);
+.inviheader{
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 5% 50%;
+    width: 500px;
+}
+.inviheader img {
+    height: 90px;
 }
 .h2Header {
     color: white;
-    display: inline-block;
-    transform: translate(70px , -60px);
-    font-size: large;
+    font-size: 110%;
 }
 input[type="file"] {
     display: none;
@@ -117,6 +121,9 @@ input[type="file"] {
 }
 
 @media only screen and (max-width: 600px) {
+    body{
+        min-width: 300px;
+    }
     .wrapper {
         margin: auto;
         text-align: center;
@@ -124,6 +131,9 @@ input[type="file"] {
         background-color: red;
     }
     .logincontainer {
+        width: 90%;
+    }
+    .inviheader{
         width: 90%;
     }
     .regPage1 {
@@ -154,4 +164,18 @@ input[type="file"] {
         background-color: #6a2323;
         color: white;
     }
+}
+@media only screen and (max-width: 450px) {
+    .inviheader img{
+        height: 80px;
+    }
+    .h2Header {
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .logo-header {
+        height: 50px;
+    }
+
+
 }
