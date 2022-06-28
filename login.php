@@ -11,7 +11,7 @@
     </head>
 <body>
     <header class = "logo-header">
-        <img src="img/logo.png" width = "100px">
+        <img src="img/logo.png" width = "20%">
         <h2 class = "h2Header">BulSU E-Voting System</h2>
     </header>
 

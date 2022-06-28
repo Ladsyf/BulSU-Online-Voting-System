@@ -121,6 +121,7 @@ input[type="file"] {
         margin: auto;
         text-align: center;
         width: 500px;
+        background-color: red;
     }
     .logincontainer {
         width: 90%;

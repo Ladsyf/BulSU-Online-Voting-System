@@ -49,6 +49,7 @@
                     <button type="button" class = "forminput loginBTN" style = "background-color: white; color: grey;" onclick = togglereg();>CANCEL</button>
                 </div>
             </form>
+        </div>
     </div>
 </body>
 </html>
