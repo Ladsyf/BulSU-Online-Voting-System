@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="css/loginregister.css">
     </head>
 <body>
+<div class = "inviheader">
     <header class = "logo-header">
-        <img src="img/logo.png" width = "100px">
-        <h2 class = "h2Header">BulSU E-Voting System</h2>
+        <p class = "h2Header">BulSU E-Voting System</p>
     </header>
-
+    <img src="img/logo.png">
+</div>
     <div class = "logincontainer">
     <form>
         <h2 class = "h2Reg"> LOGIN YOUR ACCOUNT</h2>
