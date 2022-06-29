@@ -21,11 +21,12 @@ body {
 
 .firstname, .lastname, .logoutBTN {
   font-weight: 600;
-  display: block;
    padding: 10px 5px; 
 }
 .logoutBTN{
   margin-right: 25px;
+  width: 30px;
+  padding: 10px;
 }
 .firstname {
   margin-top: 5px; 
@@ -62,6 +63,23 @@ ul {
   }
   .hamburger {
     width: 40px;
-    padding: 5px;
+    padding: 2.5px;
   }
-  
+  .accountBTNS{
+    float: right;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      min-width: 300px;
+    }
+    .hamburger{
+      display: none;
+    }
+    .accountBTNS{
+      width: 100%;      
+    }
+    .logoutBTN{
+      float: right;
+    }
+ 
+  }

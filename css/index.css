@@ -1,5 +1,4 @@
 .feedContainer {
-    
     display: grid;
     height: 150vh;
     grid-template-columns: 50% 50%;
