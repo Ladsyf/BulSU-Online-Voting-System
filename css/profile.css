@@ -12,7 +12,7 @@
 }
 .change-password-container, .change-email-container {
     background-color: white;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     width: 500px;
     border-radius: 13px;

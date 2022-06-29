@@ -7,15 +7,13 @@
     <link rel="stylesheet" href = "css/profile.css">
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Profile Page</title>
 </head>
 <body>
-    <header class = "profileHeader">
-        <img src="img/profilePic.jpg" id = "profilePic" class = "profilePic">
-        <h2 class = "lastName">DELA CRUZ,</h2>
-        <p class = "firstName">Juan D.</p>
-        <p class = "studentInfo">2019114990 3rd Year BSIT</p>
-    </header>
+    <?php
+        include 'navigationheader.php';
+    ?>
 
     <section class = "change-password-container">
         <h2 class = "h2Profile">CHANGE PASSWORD</h2>

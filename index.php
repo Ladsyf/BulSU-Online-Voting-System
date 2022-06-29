@@ -11,12 +11,78 @@
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Home</title>
 </head>
 <body>
     <?php
         include 'navigationheader.php';
     ?>
+    <section class="feedContainer">
+        <div class="feed-item item-1">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                <h3>Watch Kyle Ochoa live!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                <p class = "date-time">22/05/22 6:32 PM</p>
+                <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+        <div class="feed-item item-2">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+        <div class="feed-item item-3">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+        <div class="feed-item item-4">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+        <div class="feed-item item-5">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+        <div class="feed-item item-5">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+             </div>
+        </div>
+        <div class="feed-item item-5">
+            <img src="img/bulsu.jpg" class = "image">
+            <div class = "feed-description">
+                    <h3>Watch Kyle Ochoa live!</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "date-time">22/05/22 6:32 PM</p>
+                    <p class = "created-by">Created By: Kyle Ochoa</p>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
