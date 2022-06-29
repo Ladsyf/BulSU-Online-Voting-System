@@ -1,9 +1,9 @@
 
 <ul>
-  <li>
+  <li class = "hamburger">
     <img src = "img/icons/hamburger.png" class = "hamburger"/>
   </li>
-  <li style="float:right">   
+  <li class = "accountBTNS">   
           <div class = "ppicture" style = "background-image: url('img/bulsu.jpg')">
           </div>
           <p class = "lastname">DELA CRUZ,</p>
