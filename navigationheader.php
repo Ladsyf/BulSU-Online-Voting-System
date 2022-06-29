@@ -8,6 +8,6 @@
           </div>
           <p class = "lastname">DELA CRUZ,</p>
           <p class = "firstname">Juan D.</p>
-          <img src = "img/icons/login-filled.png"  />
+          <img src = "img/icons/login-filled.png" class = "logoutBTN" />
   </li>
 </ul>
