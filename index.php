@@ -19,7 +19,7 @@
         include 'navigationheader.php';
     ?>
     <section class="feedContainer">
-        <div class="feed-item item-1">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                 <h3>Watch Kyle Ochoa live!</h3>
@@ -28,7 +28,7 @@
                 <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
-        <div class="feed-item item-2">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
@@ -37,7 +37,7 @@
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
-        <div class="feed-item item-3">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
@@ -46,7 +46,7 @@
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
-        <div class="feed-item item-4">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
@@ -55,7 +55,7 @@
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
-        <div class="feed-item item-5">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
@@ -64,7 +64,7 @@
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
-        <div class="feed-item item-5">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
@@ -73,7 +73,7 @@
                     <p class = "created-by">Created By: Kyle Ochoa</p>
              </div>
         </div>
-        <div class="feed-item item-5">
+        <div class="feed-item">
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
