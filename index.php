@@ -84,5 +84,6 @@
         </div>
     </section>
     
+    <?php include 'bottomnav.php'; ?>
 </body>
 </html>
