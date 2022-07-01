@@ -1,26 +1,24 @@
 .feedContainer {
     display: grid;
-    min-height: 100vh;
+    height: 150vh;
     grid-template-columns: 50% 50%;
     grid-auto-rows: 25%;
     margin: 0 5% 5% 10%;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .feed-item {
     display: flex;
     width: 100%;
     height: 100%;
-    overflow-x: auto;
 }
 .feed-description {
     margin-left: 20px;
     display: inline-block;
     color: #6a2323;;
     align-self: center;
-    overflow: auto;
 }
 .feed-description h3, .feed-description p {
-    font-size: 14px;
+    font-size: 1vw;
     margin: 0;
 }
 .image {
@@ -39,6 +37,17 @@
 .date-time, .created-by {
     padding-top: 20px;
 }
+.create-live {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    border: none;
+    cursor: pointer;
+}
+.create-live img {
+    width: 5vw;
+    height: 5vw;
+}
 
 @media only screen and (max-width: 600px) {
     .feedContainer {
@@ -47,21 +56,10 @@
         width: 65vw;
     }
     .feed-description h3, .feed-description p {
-        font-size: 14px;
+        font-size: 2vw;
     }
     .image {
         width: 25vw;
         height: 25vw;
-    }
-}
-@media only screen and (max-width: 950px) {
-    .feedContainer {
-        grid-template-columns: 100%;
-        margin: auto;
-        width: 75vw;
-    }
-    .image {
-        width: 100px;
-        height: 100px;
     }
 }
