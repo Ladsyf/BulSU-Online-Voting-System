@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
 }
 .container {
+    background-color: rgb(255, 255, 255);
     margin: auto;
     width: 500px;
     height: 60vh;
@@ -33,6 +34,7 @@ body {
     border-radius: 8px;
     padding: 0 5%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .h2, p {
     color: #6a2323;
@@ -40,4 +42,41 @@ body {
 .not-red {
     color: black;
 }
-
+.go-live-button, .schedule-live-button {
+    border: none;
+    cursor: pointer;
+}
+.go-live-button:hover {
+    background-color: #D3D3D3;
+}
+.schedule-live-button:hover {
+    background-color: #D3D3D3;
+}
+.select-live, .go-live-container, .schedule-live-container {
+    width: 100%;
+    height: 100%;
+}
+.go-live-container, .schedule-live-container {
+    display: none;
+}
+.go-live-form input {
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 5%;
+    margin-bottom: 20px;
+}
+.go-live-form input
+.go-live-form select {
+    border: none;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 8px;
+    padding: 0% 5%;
+    margin-bottom: 20px;
+    width: 45%;
+    height: 10%;
+}
