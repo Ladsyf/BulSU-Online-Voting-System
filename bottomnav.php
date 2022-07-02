@@ -1,7 +1,8 @@
 <div class="navbar">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+  <a href="#"><img src = "img/icons/HomeICON.png"></a>
+  <a href="#"><img src = "img/icons/ElectionICON.png"></a>
+  <a href="#"><img src = "img/icons/VideoICON.png"></a>
+  <a href="#"><img src = "img/icons/ProfileICON.png"></a>
 </div>
 
 <div class="main">
@@ -10,34 +11,37 @@
 </div>
 
 <style>
-    .navbar {
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.navbar {
+      background-color: white;
+      overflow: hidden;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: black;
+      margin: auto;
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: black;
+  border-radius: 30px;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: #ddd;
-  color: black;
+  
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #04AA6D;
+  color: black;
   color: white;
 }
 </style>
