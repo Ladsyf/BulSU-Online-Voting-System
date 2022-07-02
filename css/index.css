@@ -37,8 +37,8 @@
 }
 .image {
     float: left;
-    width: 10vw;
-    height: 10vw;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     align-self: center;
 }
@@ -49,31 +49,17 @@
     display: inline-block;
 }
 .date-time, .created-by {
-    padding-top: 20px;
+    padding-top: 5pxpx;
 }
 
 @media only screen and (max-width: 600px) {
     .feedContainer {
         grid-template-columns: 100%;
         margin: auto;
-        width: 65vw;
+        width: 100vw;
+        grid-auto-rows: 10%;
     }
     .feed-description h3, .feed-description p {
         font-size: 14px;
-    }
-    .image {
-        width: 25vw;
-        height: 25vw;
-    }
-}
-@media only screen and (max-width: 950px) {
-    .feedContainer {
-        grid-template-columns: 100%;
-        margin: auto;
-        width: 75vw;
-    }
-    .image {
-        width: 100px;
-        height: 100px;
     }
 }
