@@ -1,36 +1,53 @@
 <div class="navbar">
-  <a href="#"><img src = "img/icons/HomeICON.png"></a>
-  <a href="#"><img src = "img/icons/ElectionICON.png"></a>
-  <a href="#"><img src = "img/icons/VideoICON.png"></a>
-  <a href="#"><img src = "img/icons/ProfileICON.png"></a>
+  <div class = "acontainer">
+  <a href="#"><img src = "img/icons/HomeICON.png" class = "navlogo"></a>
 </div>
-
-<div class="main">
-  <h1>Bottom Navigation Bar</h1>
-  <p>Some text some text some text.</p>
+  <div class = "acontainer">
+  <a href="#"><img src = "img/icons/ElectionICON.png" class = "navlogo"></a>
+</div>
+  <div class = "acontainer">
+  <a href="#"><img src = "img/icons/VideoICON.png" class = "navlogo"></a>
+</div>
+  <div class = "acontainer">
+  <a href="#"><img src = "img/icons/ProfileICON.png" class = "navlogo"></a>
+</div>
 </div>
 
 <style>
+.navbar{
+  display: none;
+}
+.acontainer{
+  display: flex;
+  justify-content: center;
+}
+.navlogo{
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
 .navbar {
       background-color: white;
       overflow: hidden;
       position: fixed;
+      display:grid;
+      grid-template-columns: auto auto auto auto;
       bottom: 0;
-      width: 100%;
-      color: black;
       margin: auto;
+      color: black;
+      width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
   float: left;
-  display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px;
   text-decoration: none;
-  font-size: 17px;
   color: black;
-  border-radius: 30px;
+  border-radius: 100px;
+  margin: 10px 0;
+  height: 25px;
+
 }
 
 /* Change the color of links on hover */
@@ -43,5 +60,6 @@
 .navbar a.active {
   color: black;
   color: white;
+}
 }
 </style>

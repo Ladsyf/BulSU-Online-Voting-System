@@ -61,19 +61,4 @@
     .feed-description h3, .feed-description p {
         font-size: 14px;
     }
-<<<<<<< HEAD
 }
-/* @media only screen and (max-width: 950px) {
-    .feedContainer {
-        grid-template-columns: 100%;
-        margin: auto;
-        width: 75vw;
-    }
-    .image {
-        width: 100px;
-        height: 100px;
-    }
-} */
-=======
-}
->>>>>>> 5424226ae066890b7455b5879b7f3319a2bce178
