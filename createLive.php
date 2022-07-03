@@ -38,20 +38,30 @@
                 <h2 class = "h2 not-red" >GO LIVE NOW!</h2>
             </div>
             <form class = "go-live-form">
-                <input type="text" name="live-title" placeholder = "Enter your LIVE title here">
-                <input class = "live-description" type="text" name="live-description" placeholder = "Enter some description here">
-                <select name="camera">
-                    <option value="camera"></option>
+                <input type="text" name="live-title" placeholder = "Enter your LIVE title here" required>
+                <textarea class = "live-description" type="text" name="live-description" placeholder = "Enter some description here"required></textarea>
+                <select name="camera" id = "camera"required>
+                    <option value="camera">Camera</option>
                 </select>
-                <select name="microphone">
-                    <option value="microphone"></option>
+                <select name="microphone" id = "microphone" required>
+                    <option value="microphone">Microphone</option>
                 </select>
-                <input type="submit" value="GO LIVE!" formaction = "">
-                <button type = "button" class = "cancel">BACK</button>
+                <input id = "go-live-submit" type="submit" value="GO LIVE!">
+                <button type = "button" class = "cancel back-from-go-live-button">BACK</button>
             </form>
         </div>
         <div class="schedule-live-container">
-            
+            <div class = "h2-live">
+                <h2 class = "h2 not-red" >POST YOUR SCHEDULES LIVE</h2>
+            </div>
+            <form class = "schedule-live-form">
+                <input type="text" name="schedule-title" placeholder = "Enter your post title here" required>
+                <textarea class = "live-description" type="text" name="live-description" placeholder = "Enter some description here"required></textarea>
+                <input type="date" name="date" id="date" required>
+                <input type="time" name="time" id="time" required>
+                <input id = "schedule-live-submit" type="submit" value="POST NOW">
+                <button type = "button" class = "cancel back-from-schedule-live-button">BACK</button>
+            </form>
         </div>
     </section>
 </body>

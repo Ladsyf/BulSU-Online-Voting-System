@@ -46,6 +46,13 @@ body {
     border: none;
     cursor: pointer;
 }
+#go-live-submit, #schedule-live-submit {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.205);
+    width: 100%;
+    cursor: pointer;
+    background-color: #6a2323;
+    color: white;
+}
 .go-live-button:hover {
     background-color: #D3D3D3;
 }
@@ -59,24 +66,29 @@ body {
 .go-live-container, .schedule-live-container {
     display: none;
 }
-.go-live-form input {
+.go-live-form input, .go-live-form textarea, .schedule-live-form input, .schedule-live-form textarea {
     border: none;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
     width: 90%;
     height: 50px;
     border-radius: 8px;
     padding: 0 5%;
+    margin-bottom: 10px;
+}
+.go-live-form textarea, .schedule-live-form textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+.go-live-form select {
+    width: 45%;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    padding: 0;
     margin-bottom: 20px;
 }
-.go-live-form input
-.go-live-form select {
-    border: none;
-    color: black;
-    background-color: white;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
-    border-radius: 8px;
-    padding: 0% 5%;
-    margin-bottom: 20px;
-    width: 45%;
-    height: 10%;
+#microphone {
+    margin-left: 15px;
+}
+#camera {
+    margin-right: 15px;
 }
