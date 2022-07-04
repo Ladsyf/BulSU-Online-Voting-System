@@ -16,6 +16,7 @@
 <style>
 .navbar{
   display: none;
+  box-shadow: 0px -25px 40px rgba(0, 0, 0, 0.158);
 }
 .acontainer{
   display: flex;
@@ -24,6 +25,7 @@
 .navlogo{
   height: 100%;
 }
+
 @media only screen and (max-width: 600px) {
 .navbar {
       background-color: white;
@@ -47,7 +49,6 @@
   border-radius: 100px;
   margin: 10px 0;
   height: 25px;
-
 }
 
 /* Change the color of links on hover */
