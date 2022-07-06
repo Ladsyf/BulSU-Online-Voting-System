@@ -11,8 +11,8 @@
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/live.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Live</title>
 </head>
 <body>
     <?php
