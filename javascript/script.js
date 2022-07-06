@@ -16,6 +16,14 @@ $(document).ready( function() {
         $(".select-live").toggle()
         $(".schedule-live-container").toggle()
     });
+    $("#go-to-voting").click( function() { //gawing ajax
+        $(".feedContainer").toggle()
+        $(".voting-page").toggle()
+    });
+    $("#back-to-election").click( function() {
+        $(".feedContainer").toggle()
+        $(".voting-page").toggle()
+    });
   
 });
 function togglereg() {
