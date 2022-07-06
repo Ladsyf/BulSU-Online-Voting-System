@@ -45,6 +45,7 @@ ul {
     box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.158);
     color: #6a2323;
     width: 100%;
+    z-index: 2;
   }
   li {
     float: left;

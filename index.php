@@ -25,7 +25,7 @@
         <h3>Watch Kyle Ochoa live!</h3>
                 <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. saddsasdaddassadsadsadsadfsadsad Fuga amet delectus<br> non officiis consectetur!</p>
                 <p class = "date-time">22/05/22 6:32 PM</p>
-                    <p class = "created-by">Created By: Kyle Ochoa</p>
+                <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
         <div class="feed-item">

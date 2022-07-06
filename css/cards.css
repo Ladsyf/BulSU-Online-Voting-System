@@ -9,12 +9,14 @@ body {
 
 }
 .feed-item {
+    position: relative;
     display: flex;
     background-color: white;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 10px;
     margin: 7px 14px;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.13);
+    overflow: hidden;
 }
 .intro {
     overflow: hidden;
@@ -29,6 +31,7 @@ body {
     margin: 7px 0;
     font-size: 13px;
     line-height: 100%;
+    margin: 0px 15px 0px 0px;
 }
 .feed-description {
     margin-left: 15px;
@@ -39,7 +42,7 @@ body {
 }
 .feed-description h3{
     font-size: 17px; 
-    margin: 0;
+    margin: 15px 0 0 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -51,23 +54,43 @@ body {
     align-self: center;
     border-radius: 10px;
     object-fit: cover;
+    margin: 15px 0px 15px 15px;
 }
-.date-time, .created-by {
+.date-time, .created-by, .election-created-by {
     font-size: 10px;
-    margin: 0;
+    margin: 0 0 15px 0;
     width: 50%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 700;
 }
-.created-by {
-    float: right;
+.created-by, .election-created-by {
+    float: left;
     text-align: right;
+    width: calc(50% - 15px);
+    padding: 0px 15px 0px 0px;
 }
 .date-time {
     float: left;
 }
+.schedule {
+    position: absolute;
+    background-color: #6a2323;
+    color: white;
+    padding: 2px 10px;
+    height: 15px;
+    right: 0;
+    margin: 0;
+}
+.schedule p{
+    margin: 0;
+    font-size: 11px;
+}
+.election-created-by{
+    width: calc(100% - 15px);
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
