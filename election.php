@@ -9,6 +9,7 @@
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/election.css">
 </head>
 <body>
     <?php
@@ -79,5 +80,7 @@
             </div>
         </div>
     </section>
+
+    <?php include 'bottomnav.php'; ?>
 </body>
 </html>
