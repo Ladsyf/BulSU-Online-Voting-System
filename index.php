@@ -11,7 +11,7 @@
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cards.css">
     <title>Home</title>
 </head>
 <body>
@@ -20,9 +20,9 @@
     ?>
     <section class="feedContainer">
         <div class="feed-item">
-            <img src="img/bulsu.jpg" class = "image">
-            <div class = "feed-description">
-                <h3>Watch Kyle Ochoa live!</h3>
+        <img src="img/bulsu.jpg" class = "image">
+        <div class = "feed-description">
+        <h3>Watch Kyle Ochoa live!</h3>
                 <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. saddsasdaddassadsadsadsadfsadsad Fuga amet delectus<br> non officiis consectetur!</p>
                 <p class = "date-time">22/05/22 6:32 PM</p>
                 <p class = "created-by">Created By: Kyle Ochoa</p>
@@ -32,7 +32,7 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br>  adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur  adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
@@ -41,7 +41,7 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
@@ -50,7 +50,7 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
@@ -59,16 +59,16 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
         </div>
         <div class="feed-item">
-            <img src="img/bulsu.jpg" class = "image">
+        <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
              </div>
@@ -77,7 +77,7 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
@@ -86,7 +86,7 @@
             <img src="img/bulsu.jpg" class = "image">
             <div class = "feed-description">
                     <h3>Watch Kyle Ochoa live!</h3>
-                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Fuga facilis amet delectus<br> non officiis consectetur!</p>
+                    <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
                     <p class = "date-time">22/05/22 6:32 PM</p>
                     <p class = "created-by">Created By: Kyle Ochoa</p>
             </div>
