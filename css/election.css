@@ -1,3 +1,7 @@
+#go-to-voting:hover {
+    cursor: pointer;
+    background-color: #D3D3D3;
+}
 .voting-page {
     height: 1000px;
     width: 1000px;
