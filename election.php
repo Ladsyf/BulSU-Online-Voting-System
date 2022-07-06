@@ -9,13 +9,14 @@
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/election.css">
 </head>
 <body>
     <?php
         include 'navigationheader.php';
     ?>
     <section class="feedContainer">
-        <div class="feed-item">
+        <div class="feed-item" id = "go-to-voting">
             <img src="img/sg logo.jpg" class = "image">
             <div class="schedule">
                 <p>Schedule: 28/05/22 8:00 PM</p>
