@@ -14,18 +14,30 @@
 </ul>
 
 <div class="navbar1">
-    <div class = "acontainer1">
-      <a href="#"><img src = "img/icons/HomeICON.png" class = "navlogo"> Home</a>
-    </div>
-    <div class = "acontainer1">
-      <a href="#"><img src = "img/icons/ElectionICON.png" class = "navlogo"> Elections</a>
-    </div>
-    <div class = "acontainer1">
-      <a href="#"><img src = "img/icons/VideoICON.png" class = "navlogo"> Campaigns</a>
-    </div>
-    <div class = "acontainer1">
-      <a href="#"><img src = "img/icons/ProfileICON.png" class = "navlogo"> Profile</a>
-    </div>
+      <a href="facebook.com">
+        <span>
+        <img src = "img/icons/HomeICON.png" class = "navlogo1"> 
+        <p> Home </p>
+        </span>
+      </a>
+      <a href="#">
+        <span>
+        <img src = "img/icons/ElectionICON.png" class = "navlogo1"> 
+        <p> Elections </p>
+        <span>
+      </a>
+      <a href="#">
+        <span>
+        <img src = "img/icons/VideoICON.png" class = "navlogo1">
+        <p> Campaigns</p>
+        </span>
+      </a>
+      <a href="#">
+        <span>
+        <img src = "img/icons/ProfileICON.png" class = "navlogo1">
+        <p> Profile</p>
+        </span>
+      </a>
 </div>
 
 <style>
@@ -33,15 +45,23 @@
       display: none;
       box-shadow: 0px -25px 40px rgba(0, 0, 0, 0.158);
     }
-    .acontainer1{
-      display: flex;
-      justify-content: center;
-      background-color: blue;
+    span{
+      display: block;
+      background-color: green;
+      height: 70%;
+      padding: 10% 0;
+      margin: auto;
+    }
+    span p{
+      float: left;
+      margin: auto;
+      padding: 6px 0;
     }
     .navlogo1{
-      height: 100%;
+      height: 33px;
+      float: left;
     }
-.navbar1 {
+    .navbar1 {
       background-color: white;
       overflow: hidden;
       position: fixed;
@@ -50,21 +70,13 @@
       color: black;
       background-color: red;
       z-index: 2;
+      margin: auto;
 }
 
 /* Style the links inside the navigation bar */
 .navbar1 a {
-  float: left;
-  text-align: center;
-  padding: 13px;
   text-decoration: none;
   color: black;
-  border-radius: 10px;
-  margin: 10px 0;
-  height: 25px;
-  width: 100%;
-  text-align: left;
-  background-color: green;
 }
 
 /* Change the color of links on hover */
@@ -82,5 +94,5 @@
       .navbar1{
         display: none;
       }
-    }
+}
 </style>
