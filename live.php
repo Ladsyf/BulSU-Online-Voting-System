@@ -84,6 +84,6 @@
         </div>
     </section>
     <a href = "createLive.php" class = "create-live"><img src="img/icons/VideoICON.png"></a>
-    
+    <?php include 'bottomnav.php'; ?>
 </body>
 </html>

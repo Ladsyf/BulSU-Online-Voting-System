@@ -35,5 +35,6 @@
             <button type="button" class = "updatePass" onclick = "toggleProfile()">CHANGE PASSWORD</button>
         </form>
     </section>
+    <?php include 'bottomnav.php'; ?>
 </body>
 </html>
