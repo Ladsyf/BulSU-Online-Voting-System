@@ -3,12 +3,13 @@
     background-color: #D3D3D3;
 }
 .voting-page {
-    height: 1000px;
+    min-height: 100vh;
     width: 1000px;
     display: none;
     padding-top: 130px;
     margin: auto;
-    color: #6a2323
+    color: #6a2323;
+    box-sizing: border-box;
 }
 .election-header {
     text-align: center;
@@ -33,8 +34,12 @@
     width: 100%;
     height: 200px;
 }
-
-#pie {
+.pie-chart {
+    width: fit-content;
+    height: 100%;
+    flex-grow: 1;
+}
+#pie-1 {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -45,17 +50,80 @@
     margin-left: 20px;
 }
 .legends {
-    height: 70%;
-    width: 150px;
-    margin-left: 15px;
-    align-self: center;
+    height: 100%;
+    width: 250px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.legends p {
+    padding: 0;
+    margin: 0;
 }
 .voted {
     background-color: #CB6015;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.legends span {
+    margin-left: 5px;
+}
+.legend-item {
+    padding: 5px 0;
+}
+.not-yet-voted {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
     text-align: center;
 }
 .legends div {
     display: inline-block;
+}
+#pie-2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(
+        #CB6015 .45turn,
+        blue .45turn .60turn,
+        red .60turn .85turn,
+        #ADD8E6 .85turn .95turn,
+        yellow .95turn
+        );
+    margin-left: 20px;
+}
+.orange {
+    background-color: #CB6015;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.blue {
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.red {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.light-blue {
+    background-color: #ADD8E6;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.yellow {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    text-align: center;
 }
