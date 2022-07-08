@@ -26,7 +26,6 @@
                 <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. saddsasdaddassadsadsadsadfsadsad Fuga amet delectus non officiis consectetur!</p>
                 <p class = "election-created-by">Created By: Kyle Ochoa</p>
             </div>
-            
         </div>
         <div class="feed-item">
             <img src="img/sg logo.jpg" class = "image">
@@ -72,11 +71,49 @@
         <div class = "election-graphs">
             <div class = "pie-chart">
                 <h4>Voter's Live Turnout</h4>
-                <div id = "pie"></div>
+                <div id = "pie-1"></div>
             </div>
             <div class = "legends">
-                <div class = "voted"></div>
-                <span>Voted</span>
+                <div class = "legend-item">
+                    <div class = "voted"></div>
+                    <span>Voted</span><br>
+                </div>
+                <div class = "legend-item">
+                    <div class="not-yet-voted"></div>
+                    <span>Yet to vote</span>
+                </div>
+                <div class="legend-item">
+                    <p>Number of Voters: 10,863</p>
+                </div>
+                <div class="legend-item">
+                    <p>Total Votes Casted: 7,652</p>
+                </div>
+            </div>
+            <div class = "pie-chart">
+                <h4>Registered Voters</h4>
+                <div id = "pie-2"></div>
+            </div>
+            <div class="legends">
+                <div class="legend-item">
+                    <div class="orange"></div>
+                    <span>1st Year: 4500</span>
+                </div>
+                <div class="legend-item">
+                    <div class="blue"></div>
+                    <span>2nd Year: 1500</span>
+                </div>
+                <div class="legend-item">
+                    <div class="red"></div>
+                    <span>3nd Year: 2500</span>
+                </div>
+                <div class="legend-item">
+                    <div class="light-blue"></div>
+                    <span>4th Year: 1000</span>
+                </div>
+                <div class="legend-item">
+                    <div class="yellow"></div>
+                    <span>5th Year: 500</span>
+                </div>
             </div>
         </div>
     </section>
