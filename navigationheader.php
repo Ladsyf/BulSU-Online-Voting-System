@@ -14,26 +14,26 @@
 </ul>
 
 <div class="navbar1">
-      <a href="facebook.com">
-        <span>
+      <a href="#">
+        <span class = "menubutton">
         <img src = "img/icons/HomeICON.png" class = "navlogo1"> 
         <p> Home </p>
         </span>
       </a>
       <a href="#">
-        <span>
+        <span class = "menubutton">
         <img src = "img/icons/ElectionICON.png" class = "navlogo1"> 
         <p> Elections </p>
         <span>
       </a>
       <a href="#">
-        <span>
+        <span class = "menubutton">
         <img src = "img/icons/VideoICON.png" class = "navlogo1">
         <p> Campaigns</p>
         </span>
       </a>
       <a href="#">
-        <span>
+        <span class = "menubutton">
         <img src = "img/icons/ProfileICON.png" class = "navlogo1">
         <p> Profile</p>
         </span>
@@ -42,46 +42,45 @@
 
 <style>
     .navbar1{
-      display: none;
-      box-shadow: 0px -25px 40px rgba(0, 0, 0, 0.158);
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.158);
     }
-    span{
-      display: block;
-      background-color: green;
-      height: 70%;
-      padding: 10% 0;
-      margin: auto;
-    }
-    span p{
+    .menubutton p{
       float: left;
       margin: auto;
-      padding: 6px 0;
+      padding: 17px 20px;
     }
     .navlogo1{
-      height: 33px;
+      height: 29px;
       float: left;
+      padding: 14px 0px 12px 12px;
     }
     .navbar1 {
       background-color: white;
-      overflow: hidden;
       position: fixed;
       display:grid;
       grid-template-rows: auto auto auto auto;
       color: black;
-      background-color: red;
+      background-color: white;
       z-index: 2;
-      margin: auto;
+      height: 350px;
+      border-radius: 13px;
+      padding: 0 20px;
 }
 
 /* Style the links inside the navigation bar */
 .navbar1 a {
   text-decoration: none;
   color: black;
+  background-color: #f0f0f0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
 }
 
 /* Change the color of links on hover */
 .navbar1 a:hover {
-  background-color: #ddd;
+  background-color: #e0e0e0;
   
 }
 
