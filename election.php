@@ -116,6 +116,74 @@
                 </div>
             </div>
         </div>
+        <h2>Candidates</h2>
+        <h3>President</h3>
+        <div class="presidents">
+            <div class="president">
+                <div>
+                    <img src="img/person.jpg" class = "person-image">
+                </div>
+                <div class = "president-description">
+                    <h3>SANTIAGO</h3>
+                    <p>Jimwell D.</p>
+                    <p>(LPARTY)</p>
+                    <p>BSIT - 3rd Year</p>
+                </div>
+            </div>
+            <div class="president">
+                <div>
+                    <img src="img/person.jpg" class = "person-image">
+                </div>
+                <div class = "president-description">
+                    <h3>SERVINO</h3>
+                    <p>Jericho F.</p>
+                    <p>(SPARTY)</p>
+                    <p>BSIT - 3rd Year</p>
+                </div>
+            </div>
+        </div>
+        <h3>Vice-President</h3>
+        <div class="vice-presidents">
+            <div class="vice-president">
+                <div>
+                    <img src="img/person.jpg" class = "person-image">
+                </div>
+                <div class = "vice-president-description">
+                    <h3>CULALA</h3>
+                    <p>Marcus Dave C.</p>
+                    <p>(SPARTY)</p>
+                    <p>BSIT - 3rd Year</p>
+                </div>
+            </div>
+            <div class="vice-president">
+                <div>
+                    <img src="img/person.jpg" class = "person-image">
+                </div>
+                <div class = "vice-president-description">
+                    <h3>OCHOA</h3>
+                    <p>Kyle Emmanuel F.</p>
+                    <p>(LPARTY)</p>
+                    <p>BSIT - 3rd Year</p>
+                </div>
+            </div>
+        </div>
+        <button class = "vote-now-button"><h2>VOTE NOW</h2></button>
+        <div class="voting-section">
+            <form class = "voting-form" id = "voting-form">
+                <h3 id = "president-ballot">PRESIDENT | Vote for 1</h3>
+                <input type="radio" name="president" id="jimwell" value = "jimwell" required>
+                <label for="jimwell">Santiago, Jimwell D.</label>
+                <input type="radio" name="president" id="jericho" value = "jericho">
+                <label for="jericho">Servino, Jericho F.</label>
+                <h3 id = "vice-president-ballot">VICE-PRESIDENT | Vote for 1</h3>
+                <input type="radio" name="vicePresident" id="marcus" value = "marcus" required>
+                <label for="marcus">Culala, Marcus C.</label>
+                <input type="radio" name="vicePresident" id="kyle" value = "kyle">
+                <label for="kyle">Ochoa, Kyle Emmanuel F.</label><br>
+                <input type="submit" value="SUBMIT VOTE" id = "submit-vote">
+                <button type = "button" id = "cancel-vote">CANCEL</button>
+            </form>
+        </div>
     </section>
 
     <?php include 'bottomnav.php'; ?>

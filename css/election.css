@@ -28,16 +28,17 @@
 .election-date {
     display: block;
 }
-.election-graphs {
+.election-graphs, .presidents, .vice-presidents {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 200px;
+    justify-content: center;
 }
 .pie-chart {
     width: fit-content;
     height: 100%;
-    flex-grow: 1;
+    
 }
 #pie-1 {
     border-radius: 50%;
@@ -57,7 +58,6 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-grow: 1;
 }
 .legends p {
     padding: 0;
@@ -126,4 +126,79 @@
     width: 15px;
     height: 15px;
     text-align: center;
+}
+.voting-page > h2, .voting-page > h3 {
+    text-align: center;
+}
+.president, .vice-president {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.president p, .president h3, .vice-president p, .vice-president h3 {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+.president-description, .vice-president-description {
+    align-self: center;
+    text-align: center;
+}
+.person-image {
+    width: 200px;
+    height: 200px;
+}
+.vote-now-button {
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    border: none;
+    background-color: #6a2323;
+    color: white;
+}
+.vote-now-button:hover {
+    cursor: pointer;
+    background-color: #4b1313;
+}
+.voting-section {
+    display: none;
+    width: 100%;
+    height: fit-content;
+}
+.voting-form {
+    text-align: center;
+    width: 100%;
+    border: black solid .5px;
+}
+.voting-form h3 {
+    text-align: center;
+}
+#president-ballot {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: aqua;
+}
+#vice-president-ballot {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: green;
+}
+.voting-form label {
+    color: black;
+}
+#submit-vote, #cancel-vote{
+    width: 49%;
+    padding: 10px;
+    background-color: #6a2323;
+    color: white;
+    border: none;
+    display: inline-block;
+    margin: 30px 0 5px 0;
+}
+#submit-vote:hover, #cancel-vote:hover {
+    cursor: pointer;
+    background-color: #4b1313;
 }

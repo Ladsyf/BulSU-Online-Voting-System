@@ -24,6 +24,14 @@ $(document).ready( function() {
         $(".feedContainer").toggle()
         $(".voting-page").toggle()
     });
+    $(".vote-now-button").click(function() {
+        $(".voting-section").show()
+    })
+    $("#cancel-vote").click(function() {
+        console.log("hi")
+        $(".voting-section").hide()
+        $("#voting-form")[0].reset()
+    })
   
 });
 function togglereg() {
