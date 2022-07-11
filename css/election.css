@@ -161,15 +161,24 @@
     cursor: pointer;
     background-color: #4b1313;
 }
-.voting-section {
-    display: none;
-    width: 100%;
-    height: fit-content;
+.voting-section-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    background-color: white;
+    width: 80%;
+}
+.voting-section-modal.active {
+    transform: translate(-50%, -50%) scale(1);
 }
 .voting-form {
     text-align: center;
     width: 100%;
     border: black solid .5px;
+    border-radius: 10px;
 }
 .voting-form h3 {
     text-align: center;
@@ -201,4 +210,19 @@
 #submit-vote:hover, #cancel-vote:hover {
     cursor: pointer;
     background-color: #4b1313;
+}
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }

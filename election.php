@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elections</title>
-    <script src="javascript/jquery-3.6.0.js"></script>
-    <script src="javascript/script.js"></script>
+    <script src="javascript/jquery-3.6.0.js" defer></script>
+    <script src="javascript/script.js" defer></script>
+    <script src="javascript/modalElection.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/election.css">
@@ -167,8 +168,8 @@
                 </div>
             </div>
         </div>
-        <button class = "vote-now-button"><h2>VOTE NOW</h2></button>
-        <div class="voting-section">
+        <button data-modal-target = "#modal" class = "vote-now-button"><h2>VOTE NOW</h2></button>
+        <div class="voting-section-modal" id = "modal">
             <form class = "voting-form" id = "voting-form">
                 <h3 id = "president-ballot">PRESIDENT | Vote for 1</h3>
                 <input type="radio" name="president" id="jimwell" value = "jimwell" required>
@@ -181,11 +182,11 @@
                 <input type="radio" name="vicePresident" id="kyle" value = "kyle">
                 <label for="kyle">Ochoa, Kyle Emmanuel F.</label><br>
                 <input type="submit" value="SUBMIT VOTE" id = "submit-vote">
-                <button type = "button" id = "cancel-vote">CANCEL</button>
+                <button data-close-button type = "button" id = "cancel-vote">CANCEL</button>
             </form>
         </div>
+        <div id="overlay"></div>
     </section>
-
     <?php include 'bottomnav.php'; ?>
 </body>
 </html>
