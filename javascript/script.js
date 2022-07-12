@@ -32,7 +32,9 @@ $(document).ready( function() {
         $(".voting-section").hide()
         $("#voting-form")[0].reset()
     })
-  
+    $(".hamburger").click(function() {
+        togglenhamburger()
+    })
 });
 function togglereg() {
     $(".reg1").toggle();
@@ -41,4 +43,13 @@ function togglereg() {
 function toggleProfile() {
     $(".change-password-container").toggle();
     $(".change-email-container").toggle();
+}
+function togglenhamburger() {
+    if($(".showupclass").css("display") == "none"){
+        $(".showupclass").effect('slide', { duration: 200, direction: 'left', mode: 'show' })
+    }
+    else{
+        $(".showupclass").effect('slide', { duration: 200, direction: 'left', mode: 'hide' })
+    }
+
 }

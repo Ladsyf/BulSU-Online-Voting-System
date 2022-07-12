@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/header.css">
 
 <ul>
-  <li class = "hamburger">
+  <li>
     <img src = "img/icons/hamburger.png" class = "hamburger"/>
   </li>
   <li class = "accountBTNS">   
@@ -12,7 +12,7 @@
           <img src = "img/icons/login-filled.png" class = "logoutBTN" />
   </li>
 </ul>
-
+<div class = "showupclass">
 <div class="navbar1">
       <a href="#">
         <span class = "menubutton">
@@ -39,8 +39,19 @@
         </span>
       </a>
 </div>
-
+</div>
 <style>
+  .showupclass {
+    position: fixed;
+    width: 28%;
+    height: 100%;
+    z-index: 2;
+    margin: 90px 10px;
+    display: none;
+  }
+  .hamburger{
+    cursor: pointer;
+  }
     .navbar1{
       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.158);
     }
@@ -57,15 +68,16 @@
     .navbar1 {
       background-color: white;
       position: fixed;
-      display:grid;
       grid-template-rows: auto auto auto auto;
       color: black;
+      display: grid;
       background-color: white;
       z-index: 2;
       height: 350px;
       border-radius: 13px;
       padding: 0 20px;
 }
+
 
 /* Style the links inside the navigation bar */
 .navbar1 a {

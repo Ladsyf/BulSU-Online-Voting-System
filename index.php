@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/script.js"></script>
+    <script
+  src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
+  integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
     <title>Home</title>
