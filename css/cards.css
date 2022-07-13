@@ -17,6 +17,11 @@ body {
     margin: 7px 14px;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.13);
     overflow: hidden;
+    transition: .2s;
+}
+.feed-item:hover {
+    background-color: rgb(204, 204, 204);
+    transition: .2s;
 }
 .intro {
     overflow: hidden;
