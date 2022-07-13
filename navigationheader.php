@@ -14,25 +14,25 @@
 </ul>
 <div class = "showupclass">
 <div class="navbar1">
-      <a href="#">
+      <a href="index.php">
         <span class = "menubutton">
         <img src = "img/icons/HomeICON.png" class = "navlogo1"> 
         <p> Home </p>
         </span>
       </a>
-      <a href="#">
+      <a href="election.php">
         <span class = "menubutton">
         <img src = "img/icons/ElectionICON.png" class = "navlogo1"> 
         <p> Elections </p>
         <span>
       </a>
-      <a href="#">
+      <a href="live.php">
         <span class = "menubutton">
         <img src = "img/icons/VideoICON.png" class = "navlogo1">
         <p> Campaigns</p>
         </span>
       </a>
-      <a href="#">
+      <a href="profile.php">
         <span class = "menubutton">
         <img src = "img/icons/ProfileICON.png" class = "navlogo1">
         <p> Profile</p>
