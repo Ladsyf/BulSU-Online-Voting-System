@@ -170,10 +170,10 @@
         </div>
         <button data-modal-target = "#modal" class = "vote-now-button"><h2>VOTE NOW</h2></button>
         <div class="voting-section-modal" id = "modal">
-            <form class = "voting-form" id = "voting-form">
+            <form class = "voting-form" id = "voting-form" formaction = "">
                 <h3 id = "president-ballot">PRESIDENT | Vote for 1</h3>
                 <input type="radio" name="president" id="jimwell" value = "jimwell" required>
-                <label for="jimwell">Santiago, Jimwell D.</label>
+                <label for="jimwell">Santiago, Jimwellsad D.</label>
                 <input type="radio" name="president" id="jericho" value = "jericho">
                 <label for="jericho">Servino, Jericho F.</label>
                 <h3 id = "vice-president-ballot">VICE-PRESIDENT | Vote for 1</h3>
