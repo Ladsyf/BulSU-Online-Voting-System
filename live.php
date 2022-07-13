@@ -12,6 +12,10 @@
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
+    <script
+  src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
+  integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k="
+  crossorigin="anonymous"></script>
     <title>Live</title>
 </head>
 <body>

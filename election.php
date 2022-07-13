@@ -7,6 +7,10 @@
     <title>Elections</title>
     <script src="javascript/jquery-3.6.0.js" defer></script>
     <script src="javascript/script.js" defer></script>
+    <script
+  src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"
+  integrity="sha256-xH4q8N0pEzrZMaRmd7gQVcTZiFei+HfRTBPJ1OGXC0k="
+  crossorigin="anonymous" defer></script>
     <script src="javascript/modalElection.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
