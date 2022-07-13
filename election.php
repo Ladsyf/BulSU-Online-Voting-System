@@ -13,63 +13,15 @@
   crossorigin="anonymous" defer></script>
     <script src="javascript/modalElection.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/election.css">
 </head>
 <body>
     <?php
         include 'navigationheader.php';
     ?>
-    <section class="feedContainer">
-        <div class="feed-item" id = "go-to-voting">
-            <img src="img/sg logo.jpg" class = "image">
-            <div class="schedule">
-                <p>Schedule: 28/05/22 8:00 PM</p>
-            </div>
-            <div class = "feed-description">
-                <h3>BulSU Student Government Election 2022</h3>
-                <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. saddsasdaddassadsadsadsadfsadsad Fuga amet delectus non officiis consectetur!</p>
-                <p class = "election-created-by">Created By: Kyle Ochoa</p>
-            </div>
-        </div>
-        <div class="feed-item">
-            <img src="img/sg logo.jpg" class = "image">
-            <div class="schedule">
-                        <p>Schedule: 28/05/22 8:00 PM</p>
-                </div>
-            <div class = "feed-description">
-
-                <h3>BulSU Student Government Election 2021</h3>
-                <p class = "intro">Lorem ipsum, dolor sit amet consectetur  adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
-                <p class = "election-created-by">Created By: Kyle Ochoa</p>
-            </div>
-        </div>
-        <div class="feed-item">
-            <img src="img/sg logo.jpg" class = "image">
-            <div class="schedule">
-                        <p>Schedule: 28/05/22 8:00 PM</p>
-                </div>
-            <div class = "feed-description">
-                <h3>BulSU Student Government Election 2020</h3>
-                <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
-                <p class = "election-created-by">Created By: Kyle Ochoa</p>
-            </div>
-        </div>
-        <div class="feed-item">
-            <img src="img/sg logo.jpg" class = "image">
-            <div class="schedule">
-                        <p>Schedule: 28/05/22 8:00 PM</p>
-                </div>
-            <div class = "feed-description">
-                <h3>BulSU Student Government Election 2019</h3>
-                <p class = "intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facilis amet delectus non officiis consectetur!</p>
-                <p class = "election-created-by">Created By: Kyle Ochoa</p>
-            </div>
-        </div>
-    </section>
     <section class = "voting-page">
         <header class = "election-header">
-            <button id = "back-to-election"> <img src="img/icons/back.png"> </button>
+            <a href = "elections.php"> <img src="img/icons/back.png"> </a>
             <h2 class = "election-title">BulSU Student Government Election 2022</h2>
             <p class = "election-date">Date: 22/06/22 8:00PM - 26/05/22 8:00PM</p>
         </header>

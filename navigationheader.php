@@ -88,12 +88,13 @@
   width: 100%;
   text-align: center;
   border-radius: 10px;
+  transition: .3s;
 }
 
 /* Change the color of links on hover */
 .navbar1 a:hover {
   background-color: #e0e0e0;
-  
+  transition: .3s;
 }
 
 /* Add a color to the active/current link */
