@@ -12,11 +12,12 @@
 }
 .change-password-container, .change-email-container {
     background-color: white;
-    margin: 50px auto;
+    padding-top: 200px;
+    margin: auto;
     text-align: center;
     width: 500px;
     border-radius: 13px;
-    padding: 10px 0px;
+    
 }
 .h2Profile {
     font-size: 15px;
@@ -44,6 +45,9 @@
 .changePass, .changeEmail {
     background-color: #6a2323e7;
     color: white;
+}
+.changePass, .changeEmail, .updateEmail, .updatePass {
+    cursor: pointer;
 }
 .change-email-container {
     display: none;
