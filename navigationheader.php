@@ -45,7 +45,7 @@
     position: fixed;
     width: 28%;
     height: 100%;
-    z-index: 2;
+    z-index: 20;
     margin: 90px 10px;
     display: none;
   }
